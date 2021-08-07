@@ -1,1 +1,162 @@
 /* Add CSS styling here */
+body {
+    background-color: #28282B;
+}
+/* navigation buttons styles */
+button {
+    border-style: none;
+    text-decoration: none;
+    background-position: center;
+    background-color: white;
+    justify-content: space-between;
+}
+/* intro */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: underline;
+    background-image: linear-gradient(to right,gray , black);
+}
+.description {
+    justify-content: flex-end;
+}
+.imgPortrait {
+    height: 40vh;
+    width: 40vh;
+    background-image: url("https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+p {
+    flex-direction: row;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+/* body */
+.container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.container3 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+
+}
+.img1 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img1:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img2 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1513807762437-8c8dee6b3776?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2FtaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img2:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img3 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxnYW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img3:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img4 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/flagged/photo-1580234759288-fbf3ccdd9a06?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img4:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img5 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1554876306-5b1fa0c884e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxnYW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img5:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img6 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1601720537852-1b36a00c69e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUyfHxnYW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img6:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img7 {
+  width: 30vh;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1583207884889-d79abf0d0aa3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFzJTIwdmVnYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+} 
+.img7:hover {
+    opacity: 30%;
+    background-position: center;
+}
+.img8 {
+  width: 30vh; 
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1566055972289-c52022ae23b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  margin: 1vh;
+  border: 2px solid white;
+}
+.img8:hover {
+    opacity: 30%;
+    background-position: center;
+}
+
